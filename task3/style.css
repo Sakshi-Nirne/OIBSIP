@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif , cursive;
+}
+.container {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(93, 190, 235);
+}
+
+.main {
+    display: flex;
+}
+h1{
+   align-items: center; 
+   color: rgb(204, 26, 56);
+   font-family: cursive;
+}
+#calcTemp {
+    padding: 29px 67px ;
+    min-height: 290px;
+    background-color: #dcee3d;
+   
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+    font-family: cursive;
+    color: green;
+}
+
+#temp {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 100;
+    border-color: brown;
+    outline: none;
+}
+
+#temp_diff {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 100;
+    border-color: brown;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 197px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    color: rgb(225, 211, 238);
+    background-color: rgb(236, 113, 82);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(153, 211, 52);
+    cursor: pointer;
+    color: blue;
+}
+
+#result{
+    font-size: 27px;
+    color: green;
+    font-family: cursive;
+}
